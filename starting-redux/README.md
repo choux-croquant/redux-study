@@ -4,10 +4,11 @@ Udemy의 React 완벽 가이드 with Redux, Next.js, TypeScript 강좌를 학습
 ### src/store/index.js
 store를 생성하는 방법, 리듀서 함수를 생성하는 방법, 리듀서 함수에 타입과 payload를 전달하는 방법 작성
 redux-toolkit의 createSlice를 사용하여 리듀서 함수 압축하기.
+createSlice로 생성한 여러 개의 slice 병합하기
 
 ### src/components/Counter.js
 컴포넌트에서 store의 state를 참조하는 방법, 컴포넌트에서 action을 발생시키는 방법 작성
-
+redux-toolkit을 사용한 경우의 state사용법, action을 dispatch하는 방법 작성
 
 ### Redux State의 주의사항
 리듀서 함수 내부에서 인자로 받은 기존의 state를 직접 변경하는 것은 금기사항
